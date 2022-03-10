@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 예제</title>
+    <style>
+        #content{
+            width: 300px;
+            /* height: 120px; */
+            margin: 0 auto;
+            border: 1px solid #000;
+            background: #eee;
+            display: flex; /* 부모요소에서 flex 적용함 */
+            flex-wrap: wrap;  /* 교차축 기준 아래로 배치(부모요소 범위안) */
+            /* flex-wrap: nowrap; */ /* 디폴트 */
+            /*flex-direction: column;   /* 수직 배치 */
+            /*flex-direction: row;  /* 수평 배치 */
+        }  
+        .box{
+            width: 100px; 
+            height: 100px;
+            background: #00f; 
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+#container{width: 500px; margin: 30px auto; 
+    border: 1px solid #222; padding: 20px;}
+form ul li{list-style: none; margin: 10px;}
+form #info label{width: 60px; float: left;}
+.button{margin-top: 10px;}
+/* .button input{width: 80px; height: 30px;} */
+/* 버튼 태그 사용시 */
+button{width: 80px; height: 40px;}

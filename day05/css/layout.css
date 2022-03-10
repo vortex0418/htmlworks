@@ -1,0 +1,38 @@
+*{
+    box-sizing: content-box;
+}
+#container{
+    width: 1000px;
+    margin:0 auto;
+}
+#container h1{font-size: 2rem;}
+header{
+    width: 978px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* 978px + padding(20px) + border(2px) */
+}
+section{
+    width: 650px;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float:left;
+}
+aside{
+    width: 300px;
+    height: 600px;
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 10px;
+    float: right;
+}
+footer{
+    width: 978px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding:10px;
+    clear: both;
+}
+
